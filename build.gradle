@@ -28,6 +28,7 @@ ext {
 
 dependencies {
     implementation 'com.vaadin:vaadin-spring-boot-starter'
+    implementation 'com.github.rjeschke:txtmark:0.13'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
